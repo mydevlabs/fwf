@@ -1,0 +1,13 @@
+# prettier-ignore
+name: fwf
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - pre-commit
+  - pip-tools
+  - pip:
+      - --requirement requirements.txt
+      - --editable  .

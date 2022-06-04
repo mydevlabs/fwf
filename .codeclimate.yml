@@ -1,0 +1,5 @@
+plugins:
+  bandit:
+    enabled: true
+  pep8:
+    enabled: false
